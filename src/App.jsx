@@ -19,7 +19,7 @@ function App() {
     localStorage.setItem("travels", JSON.stringify(travels));
   }, [travels]);
 
-  const handelAdd = (newTravel) => {
+  const handleAdd = (newTravel) => {
     setTravels([...travels, newTravel]);
   };
 
@@ -39,7 +39,7 @@ function App() {
     setEditingTravel(null);
   };
 
-  const totalCOuntries = new Set(travels.map((t) => t.country)).size;
+  const totalCountries = new Set(travels.map((t) => t.country)).size;
 
   return (
     <div className="App">
