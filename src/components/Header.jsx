@@ -1,7 +1,4 @@
-
 import "./Header.css";
-import { useState } from "react";
-
 function Header({ totalTrips, totalCountries }) {
   return (
     <header className="header">
@@ -20,7 +17,6 @@ function Header({ totalTrips, totalCountries }) {
       </div>
     </header>
   );
-
 }
 
 export default Header;
