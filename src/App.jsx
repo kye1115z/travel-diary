@@ -30,7 +30,7 @@ function App() {
     setEditingTravel(null);
   };
 
-  const handleEdit = (traavel) => {
+  const handleEdit = (travel) => {
     setEditingTravel(travel);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
